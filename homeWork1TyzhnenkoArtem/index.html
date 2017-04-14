@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>Главная</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 <header>
@@ -15,8 +17,8 @@
             <nav>
                 <ul>
                     <li><a href="./index.html">Главная</a></li>
-                    <li><a href="./webtechnologies.html">Web-технологии</a>
-                        <ul>
+                    <li class="web"><a href="./webtechnologies.html">Web-технологии</a>
+                        <ul class="drop">
                             <li><a href="./html5.html">HTML5</a></li>
                             <li><a href="./css3.html">CSS3</a></li>
                             <li><a href="./javaScript.html">JavaScript</a></li>
@@ -31,26 +33,30 @@
 </header>
 <main>
     <section>
-        <div class="introduction">
+        <div class="introduction container">
             <p>
                 Курс предназначен для <i>широкого</i> круга слушателей, которые хотели бы освоить такие <i>Web-технологии</i>
                 как <b><span title="HyperText Markup Language">HTML5,</span> <span
-                    title="Cascading Style Sheets">CSS3,</span> JavaScript,</b> но не имеют предварительных профильных
+                    title="Cascading Style Sheets">CSS3,</span> JavaScript,</b> но не имеют предварительных
+                профильных
                 знаний в этой области.
-                <i>Предварительные знания/навыки:</i> уверенное пользование ПК и программным обеспечением. Практическая
+                <i>Предварительные знания/навыки:</i> уверенное пользование ПК и программным обеспечением.
+                Практическая
                 работа будет проводится с использованием текстового редактора Notepad++.
             </p>
         </div>
     </section>
 </main>
 <footer>
-    <div class="address">
-        <address>
-            <a href="#"><i>Пишите: mail@mail</i></a>
-        </address>
-    </div>
-    <div class="copyright">
-        <p>&copy; Фамилия И.О., год</p>
+    <div class="container">
+        <div class="address">
+            <address>
+                <a href="#"><i>Пишите: mail@mail</i></a>
+            </address>
+        </div>
+        <div class="copyright">
+            <p>&copy; Фамилия И.О., год</p>
+        </div>
     </div>
 </footer>
 </body>
