@@ -28,11 +28,13 @@ body {
     margin: 0 auto;
     color: white;
     background-color: gray;
+    border-color: none;
 }
 
 button{
     padding: 0px;
 }
+
 /*HEADER BEGIN*/
 
 .container{
@@ -163,7 +165,8 @@ button{
     text-align: justify;
 }
 
-.html h2{
+.caption h2{
+    margin: 0 5px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -221,24 +224,22 @@ button{
 }
 .calc table{
     margin: 0 auto;
+    table-layout: fixed;
 }
 .calc button{
     width: 50px;
+    height: 25px;
 }
 .calc .zero{
     width: 100%;
 }
-td{
-    position: relative;
-}
 .calc td{
     height: 100%;
     padding: 2px 1px;
+    vertical-align: bottom;
 }
 .calc .equally button{
-    position: absolute;
-    height: 100%;
-    bottom: 0px;
+    height: 54px;
 }
 .calc input {
     box-sizing: border-box;
