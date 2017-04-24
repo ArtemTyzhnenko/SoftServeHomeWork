@@ -28,7 +28,6 @@ body {
     margin: 0 auto;
     color: white;
     background-color: gray;
-    border-color: none;
 }
 
 button{
@@ -86,7 +85,8 @@ button{
     left: 0;
     bottom:0;
     right: 0;
-    top: 15px;
+    top: 16px;
+    -moz-top: 17px;
     z-index: 1;
 }
 .navigation .drop li{
@@ -258,6 +258,10 @@ button{
 }
 .test{
     padding-bottom: 5px;
+}
+.test .button button{
+    width: 85px;
+    height: 25px;
 }
 /*TEST END*/
 
